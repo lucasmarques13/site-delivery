@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D5CD;
+   
+}
+
+header {
+    background-color: #85714d;
+    height: 11vh;
+    display: block;
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    grid-template-columns: 250px 130px 150px auto auto auto auto auto;
+}
+
+.insta {
+    width: 35px;
+   
+    
+}
+
+.facebook {
+    width: 35px;
+    
+}
+
+.x {
+    width: 35px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.navgation {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 520;
+}
+
+a {
+    color: aliceblue;
+    padding-left: 60px;
+}
+
+.conta {
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#linha {
+    text-decoration: none;
+}
+
+#btn {
+    color: #85714D;
+    border-radius: 20px;
+    border: solid 1px;
+    width: 86px;
+    height: 39px;
+    font-size: 15px;
+    margin-left: 30px;
+   
+    
+}
+#btn:hover{
+    background-color: #b4b4b4;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#texte {
+    padding: 0;
+    color: #85714D;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 93px;
+}
+
+.negrito{
+    font-weight: 500;
+}
+
+.subtxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    
+    font-weight: 600;
+}
+
+main{
+    display: grid;
+}
+
+.txt1{
+    
+    padding-top: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.subtxt1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+
+main{
+    grid-template-columns: 200px 613px 300px 563px 64px ;
+}
+
+.txt2{
+    
+    padding-top: 102px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.subtxt2{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+
+.txt3{
+    
+    padding-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #85714d;
+    height: 300px;
+    display: grid;
+}
+
+.padding {
+    display: flex;
+    flex-direction: row;
+    padding-left:106px ;
+    padding-top: 50px;
+}
+
+.copy {
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+#a {
+    padding-left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.a {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.subs{
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
